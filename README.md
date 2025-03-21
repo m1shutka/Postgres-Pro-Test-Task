@@ -21,7 +21,7 @@ python -m venv venv
 ```
 4. Активация виртуального окружения
 ```
-.venv\scripts\activate
+venv\bin\activate
 ```
 5. Установка зависимостей
 ```
