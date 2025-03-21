@@ -6,3 +6,24 @@
 ## Задание по основам баз данных
 - Решение задач по основам баз данных находятся в соответсвующих файлах (task2.sql, ..., task7.sql)
 - Решение последней заадчи находится в файле [task8.py](https://github.com/m1shutka/Postgres-Pro-Test-Task/blob/main/task8.py)
+## Загрузка файлов (Windows)
+1. Клонирование репозитория
+```
+git clone https://github.com/m1shutka/Postgres-Pro-Test-Task.git
+```
+2. Переход в директорию Postgres-Pro-Test-Task
+```
+cd Postgres-Pro-Test-Task
+```
+3. Создание виртуального окружения
+```
+python -m venv venv
+```
+4. Активация виртуального окружения
+```
+.venv\scripts\activate
+```
+5. Установка зависимостей
+```
+pip install -r requirements.txt
+```
